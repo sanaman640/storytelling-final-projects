@@ -5,9 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Growing Up Digital – Stephen Anaman</title>
 
-  <!-- If you do NOT have a css folder, this link will do nothing.
-       Either create /css/style.css OR remove this line. -->
-  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header h2 {
+      margin-top: 10px;
+      font-weight: normal;
+      font-size: 1.2em;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    .panel {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      margin: 20px auto;
+      border-radius: 6px;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 15px;
+    }
+
+    #credits ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+  </style>
 </head>
 
 <body>
@@ -34,24 +93,22 @@
         This image represents my earliest memories with technology: handheld games and simple graphics,
         before social media and constant notifications.
       </p>
-      <img
-        src="images/childhood_console_edited.jpg"
-        alt="Edited photo of a Game Boy handheld system with a child reaching for a game cartridge.">
+      <img src="images/childhood_console_edited.jpg"
+           alt="Edited photo of a Game Boy handheld system with a child reaching for a game cartridge">
     </section>
 
-    <!-- Teen / Phone Image -->
+    <!-- Teen Image -->
     <section class="panel">
       <h3>Teen Years – Always Online</h3>
       <p>
         This image shows how my phone and social media became the center of my digital life,
         with notifications and messages constantly pulling my attention.
       </p>
-      <img
-        src="images/teen_phone_social_edited.jpg"
-        alt="Edited photo of a person holding a smartphone with glowing notifications.">
+      <img src="images/teen_phone_social_edited.jpg"
+           alt="Edited photo of a person holding a smartphone with glowing notifications">
     </section>
 
-    <!-- Audio Story -->
+    <!-- Audio -->
     <section class="panel">
       <h3>Audio Story – Growing Up Digital</h3>
       <p>
@@ -65,16 +122,17 @@
     </section>
 
     <!-- Credits -->
-    <section id="credits">
+    <section id="credits" class="panel">
       <h3>Credits</h3>
       <ul>
-        <li>Images edited in Adobe Photoshop.</li>
-        <li>Audio created and mixed in Audacity.</li>
-        <li>Webpage built with HTML and CSS.</li>
-        <li>Project by Stephen Anaman.</li>
+        <li>Images edited in Adobe Photoshop</li>
+        <li>Audio created and mixed in Audacity</li>
+        <li>Webpage built with HTML and CSS</li>
+        <li>Project by Stephen Anaman</li>
       </ul>
     </section>
   </main>
 
 </body>
 </html>
+
